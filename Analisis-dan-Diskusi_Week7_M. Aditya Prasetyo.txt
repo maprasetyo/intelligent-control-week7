@@ -1,0 +1,10 @@
+Analisis dan Diskusi
+
+	Pada Pada praktikum minggu ketujuh, dilakukan percobaan untuk mencoba dan menerapkan metode Stereo Vision dan Canny Edge Detection guna mendeteksi serta menganalisis bentuk rel secara langsung atau real-time. Tujuan dari praktikum ini adalah supaya mahasiswa bisa memahami cara kerja dua kamera yang disusun sejajar untuk mendapatkan informasi tentang kedalaman, serta bagaimana teknik deteksi tepi Canny bisa membantu mengenali batas-batas rel dengan lebih tepat. Langkah awal dimulai dengan menyusun dua kamera USB sebagai sistem stereo, Selanjutnya proses pembuatan program, pada percobaan ini saya menggunakan 3 program yang mana masing-masing program mempunyai fungsinya masing-masing. Pada program pertama berfungsi untuk mengetahui kedua fungsi kamera berjalan dengan lancer atau tidak. Kemudian program kedua berfungsi untuk menerapkan canny edge detection ke gambar stereo. Setelah itu, program ketiga berfungsi mendeteksi estimasi kedalaman dan geometri rel. Lalu dilakukan pengambilan gambar secara bersamaan dan pendeteksian tepi menggunakan skrip Python. Gambar tepi dari kedua kamera ini dipakai untuk melihat batas rel, kemudian dilakukan perhitungan kedalaman menggunakan metode pencocokan stereo yang menghasilkan peta kedalaman. Berdasarkan gambar tepi dan peta kedalaman tersebut, dilakukan analisis terhadap beberapa hal penting dari geometri rel seperti lebar, panjang, kemiringan, dan perubahan pada bantalan rel (ballast). Hasil pengukuran ini lalu dicatat dalam tabel pemeriksaan geometri dan dibandingkan antar beberapa sampel. Kemudian di dapat hasil data dari percobaan geometri rel pada table berikut:
+
+
+No Track	Lebar Rel (cm)	Panjang Rel (cm)	Kemiringan Rel (°)	Identifikasi Deformasi Ballast (cm)
+1	68,65	6,7	-22,22	22,590
+2	78,61	8,52	-2,86	23,309
+3	79,56	31,26	26,8	23,649
+4	39,71	7,25	12,74	23,770
